@@ -137,7 +137,7 @@
     <ResourceCompile Include="piano.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="wav1.bin" />
+    <Image Include="Pictures\icon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

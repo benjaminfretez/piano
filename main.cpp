@@ -1,4 +1,4 @@
-// piano for windows by benjaminfretez (b3njamïn)
+ï»¿// piano for windows by benjaminfretez (b3njamÃ¯n)
 // join https://discord.gg/FgZYVKwTN4
 
 #include <cstdlib>
@@ -13,6 +13,7 @@ using namespace std;
 
 int main() {
 	char key = 0;
+	SetConsoleTitle(TEXT("piano"));
 	cout << "piano by benjaminfretez\n";
 	cout << "    | G | | |  \n";
 	cout << "    | | | | |  \n";
@@ -93,7 +94,7 @@ int main() {
 			cout << "    | | | | |  \n";
 			Beep(698.46, 100);
 			break;
-		case '¿': // Latin American keyboard
+		case 'Â¿': // Latin American keyboard
 			cout << "    | | | | |  \n";
 			cout << "    | | | | |*  \n";
 			cout << "    | | | | |  \n";

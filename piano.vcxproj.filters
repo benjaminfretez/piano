@@ -30,8 +30,8 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="wav1.bin">
+    <Image Include="Pictures\icon.ico">
       <Filter>Resource Files</Filter>
-    </None>
+    </Image>
   </ItemGroup>
 </Project>
